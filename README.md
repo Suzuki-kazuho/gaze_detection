@@ -4,6 +4,9 @@ newdataset_CNN_Ghist.py: 畳み込み層で学習させたコード
 
 ## そのほかで試したReNetの結果
 ### 1:非注視、0:注視
+学習データ
+注視：7734
+非注視：15035
 
 **ResNet34, GrayScale, epoch5, batch_size = 256**
 
@@ -55,6 +58,9 @@ newdataset_CNN_Ghist.py: 畳み込み層で学習させたコード
 
 ## CNNでの結果
 ### 1:注視、0:非注視
+学習データ
+注視：7734
+非注視：7734
 **３層CNN, GrayScale + 適用的ヒストグラム(8, 8), epoch50, batch_size = 256**
 
 <img width="376" alt="Pasted Graphic 18" src="https://github.com/gjdklgjajgj/gaze_detection/assets/102703898/46e3d9d4-dc44-4cd4-bb8d-e1ce29036ff0">
