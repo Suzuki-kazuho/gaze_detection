@@ -6,6 +6,7 @@ timm_pretrained.py（resnet18dをロードして学習させています）
 ### 1:非注視、0:注視
 
 **ResNet34, GrayScale, epoch5, batch_size = 256**
+
 本当は適用的ヒストグラム平坦化したいけど、Pytorchのオーグメンテーションでこれも一気にする方法がわからないのでとりあえずグレースケールで回してみる
 ![image](https://github.com/gjdklgjajgj/gaze_detection/assets/102703898/d385f3f9-38af-42b6-b4cd-0ebbe866ee22)
 
