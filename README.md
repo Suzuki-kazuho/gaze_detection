@@ -1,6 +1,6 @@
 # gaze_detection
-転移学習のコード
-timm_pretrained.py（resnet18dをロードして学習させています）
+timm_pretrained.py: 転移学習のコード（resnet18dをロードして学習させています）
+newdataset_CNN_Ghist.py: 畳み込み層で学習させたコード
 
 ## そのほかで試したReNetの結果
 ### 1:非注視、0:注視
@@ -51,5 +51,11 @@ timm_pretrained.py（resnet18dをロードして学習させています）
 **ResNet50, GrayScale, epoch50, batch_size = 256**
 ![image](https://github.com/gjdklgjajgj/gaze_detection/assets/102703898/db12729c-b04f-404b-b07e-96d6172475f9)
 
+
+
+## CNNでの結果
+### 1:注視、0:非注視
+**３層CNN, GrayScale + 適用的ヒストグラム(8, 8), epoch50, batch_size = 256**
+<img width="376" alt="Pasted Graphic 18" src="https://github.com/gjdklgjajgj/gaze_detection/assets/102703898/46e3d9d4-dc44-4cd4-bb8d-e1ce29036ff0">
 
 
